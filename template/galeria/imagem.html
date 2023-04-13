@@ -1,4 +1,4 @@
-{% extends 'galeria/base.html'%}
+{% extends 'shared/base.html'%}
 {% load static %}
 {% block content %}
     <div class="pagina-inicial">
@@ -14,9 +14,14 @@
                             <div class="imagem__info">
                             <div class="imagem__texto">
                                 <p class="imagem__titulo">{{fotografia.nome}}</p>
-                                <p class="imagem__descricao">{{fotografia.descricao}}</p>
-                                <p class="imagem__texto"></p>
-                        </div>
+                                <p class="imagem__descricao">{{fotografia.legenda}}</p>
+                                <p class="imagem__texto">{{fotografia.descricao}}</p>
+                            </div>
+                            <div>
+                                <a href="{% url 'editar_imagem' fotografia.id %}"><button class="btn btn-success col-12" style="padding: top 5px;">Editar Imagem</button></a>
+                                <p></p>
+                                <a href="{% url 'deletar_imagem' fotografia.id %}"><button class="btn btn-danger col-12" style="padding: top 5px;">Deletar Imagem</button></a>
+                            </div>
                     </div>
                 </section>
             </section>
