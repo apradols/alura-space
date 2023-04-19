@@ -1,6 +1,6 @@
 # Alura Space
 ### 
-<img src="https://img.shields.io/badge/framework-django-brightgreen"/>
+<img src="https://img.shields.io/badge/framework-django-brightgreen"/>#vitrinedev
 
 
 
