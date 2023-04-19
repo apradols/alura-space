@@ -13,4 +13,4 @@ Utilizado para colocar as aulas em prática o Alura Space é um CRUD integrado c
 | :fire: Curso     | https://cursos.alura.com.br/formacao-django
 
 <!-- Inserir imagem com a #vitrinedev ao final do link -->
-![](https://user-images.githubusercontent.com/75024321/233216532-6d696eec-385e-4bfd-b6cd-2ce1c01d91d2.png)
+![](https://user-images.githubusercontent.com/75024321/233216532-6d696eec-385e-4bfd-b6cd-2ce1c01d91d2.png#vitrinedev)
