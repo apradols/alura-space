@@ -8,7 +8,7 @@ Utilizado para colocar as aulas em prática o Alura Space é um CRUD integrado c
 | :placard: Vitrine.Dev |     |
 | -------------  | --- |
 | :sparkles: Nome        | **Alura Space**
-| :label: Tecnologias | Pythob, Django, AWS
+| :label: Tecnologias | Python, Django, AWS
 | :rocket: URL         | https://github.com/apradols/alura-space
 | :fire: Curso     | https://cursos.alura.com.br/formacao-django
 
